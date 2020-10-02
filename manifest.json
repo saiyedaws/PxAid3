@@ -1,0 +1,51 @@
+{
+
+    "manifest_version": 2,
+    "name": "PaxfulAid3",
+    "description": "Paxful Aid",
+    "version": "1",
+
+    "icons": {
+        "128": "images/passle_logo_128x128.png",
+        "16": "images/passle_logo_16x16.png",
+        "48": "images/passle_logo_48x48.png"
+      },
+
+    "browser_action":{
+        "default_icon": "images/passle_logo_128x128.png",
+        "default_popup": "popup/popup.html"
+    },
+    
+    "background":{
+        "scripts": [
+            "libraries/jquery.js",
+            "background/background.js"
+        ]
+    },
+
+    "content_scripts":[
+        {
+            "matches": ["https://paxful.com/trade/*"],
+            "css": ["content/paxful/paxful_trade.css"],
+            "js": ["libraries/custom.js","content/paxful/paxful_trade.js","content/paxful/paxful_trade_buttons.js"],
+            "run_at": "document_end"
+        }
+        
+    ],
+
+
+    "optional_permissions": [ "downloads" ],
+
+    "permissions": [
+        "tabs", "<all_urls>",
+        "storage", "*://*/*",
+        "notifications",
+        "http://*/",
+        "https://*/",
+        "activeTab"
+    ]
+
+
+
+
+}

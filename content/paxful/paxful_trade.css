@@ -1,0 +1,150 @@
+.quick_trade_buttons{
+ 
+  height:25px;
+  text-align: left;
+}
+
+.quick_trade_buttons:active
+{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.red0 {
+  background-color: #f75656;
+  
+}
+
+
+.red0:active {
+  background-color: #ac3e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.red1 {
+  background-color: #e27c7c;
+  
+}
+
+
+.red1:active {
+  background-color: #ac5f5f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.red2 {
+  background-color: #f1acac;
+  
+}
+
+
+.red2:active {
+  background-color: #b88484;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+.green1 {
+  background-color: #b4f054;
+  
+}
+
+
+.green1:active {
+  background-color: #658e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.green2 {
+  background-color: #aacf6d;
+  
+}
+
+
+.green2:active {
+  background-color: #829e54;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.green3 {
+  background-color: #d0eba6;
+  
+}
+
+
+.green3:active {
+  background-color: #a3b882;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.yellow {
+  background-color: #f6f86d;
+  
+}
+
+
+.yellow:active {
+  background-color: #ecdc4d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.blue {
+  background-color: #a8f0e4;
+  
+}
+
+
+.blue:active {
+  background-color: #7baaa2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.orange {
+  background-color: #e9b066;
+  
+}
+
+
+.orange:active {
+  background-color: #c99525;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.purple1 {
+  background-color: #d5a8f3;
+  
+}
+
+
+.purple1:active {
+  background-color: #ab86c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.purple2 {
+  background-color: #dfc5f0;
+  
+}
+
+
+.purple2:active {
+  background-color: #a594b1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
