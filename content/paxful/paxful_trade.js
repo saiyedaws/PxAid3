@@ -8,6 +8,7 @@ waitUntilElementExistsViaQuerySelectorAll(
 
 async function startPaxfulOptimization() 
 {
+    await createButtonDiv();
 	await makeTradeBoxBigger();
     createLeaveFeedbackButton();
 	
@@ -46,9 +47,24 @@ async function startPaxfulOptimization()
 }
 
 
+function createButtonDiv(){
+    return new Promise((resolve)=>{
+
+        var div = document.createElement("div");
+        div.id = "button-div";
+    
+        
+        
+        var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
+        chatBox.append(div);
+
+        resolve();
+    });
+}
 
 
-function createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText) {
+function createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText) 
+{
 	var button = document.createElement("button");
 	button.type = "button";
 	button.innerText = buttonInnerText;
@@ -58,7 +74,10 @@ function createTradeMessagesButton(buttonID, color, messageArray, buttonInnerTex
 
     
     
-    var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
+    //var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
+    var chatBox = document.querySelector("#button-div");
+
+
     chatBox.append(button);
 
     //buttons right by each other
@@ -97,7 +116,7 @@ function makeTradeBoxBigger() {
 		var chatBoxTextArea = document.querySelector(
 			".px-2.form-control.border-transparent.p-0.pt-1.pt-sm-0.regular-24"
 		);
-		chatBoxTextArea.setAttribute("style", "resize: none; height: 146.667px;");
+		chatBoxTextArea.setAttribute("style", "resize: none; height: 70px;");
 
 		resolve();
 	});

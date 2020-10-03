@@ -1,8 +1,21 @@
 .quick_trade_buttons{
  
-  height:25px;
+  height:30px;
+  width: 250px;
   text-align: left;
+
+  display: inline-block;
+ 
+
 }
+
+
+#button-div{
+
+display: inline-block;
+ 
+}
+
 
 .quick_trade_buttons:active
 {
