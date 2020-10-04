@@ -58,6 +58,9 @@ function createButton_invalidCode(index) {
 function createButton_alreadyRedeemed(index) {
   var messageArray = [
     "Brother the amazon Code Is already redeemed to another account,  do you have a valid and unused code?",
+    "Brother Please listen , The Claim-Code shows its already redeemed to another account,  do you have a unused code to trade?",
+    "Brother please view the image above, The gift card Code is already redeemed to another account, Please cancel the trade unless you have a valid and un-used code.",
+
   ];
 
   var buttonID = "custom-button-" + index;
@@ -78,9 +81,12 @@ function createButton_callAmazon(index) {
   createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText);
 }
 
-function createButton_cancelTrade(index) {
+function  createButton_cancelTrade(index) {
   var messageArray = [
     "Brother, come back and trade me when you have a valid and unused code, please cancel trade if you havnt done so, Excited to do business with you my friend!\r\n",
+    "Brother, please cancel trade, and trade me when you have a valid and unused code , Hope to do business with you again my brother!\r\n",
+    "Brother, please go ahead and cancel this trade, Come and trade me back at any time,  Excited to work with you!\r\n",
+    
   ];
 
   var buttonID = "custom-button-" + index;
