@@ -191,6 +191,20 @@ function createButton_onlyPaxful(index) {
   createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText);
 }
 
+
+function createButton_wrongRegion(index) {
+  var messageArray = [
+    "Brother the giftcard Code is for the wrong region, I only accept Canadian giftcard codes, please cancel the trade and trade me when you have a valid canadian GiftCode ",
+  "Brother the giftcard Code is for the wrong region, I only accept Canadian giftcard codes, please cancel the trade and trade me when you have a valid canadian GiftCode "
+];
+
+  var buttonID = "custom-button-" + index;
+  var color = "";
+  var buttonInnerText = "#" + index + " - Wrong Region";
+  createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText);
+}
+
+
 function createButton_custom(index) {
   var messageArray = ["place-holder"];
 
