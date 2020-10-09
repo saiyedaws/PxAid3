@@ -48,7 +48,10 @@ async function startPaxfulOptimization() {
   createButton_wrongRegion(index);
   index++;
 
-  
+
+  createButton_incorrectValue(index);
+  index++;
+
   createButton_angryCustomer(index);
 }
 

@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "name": "PaxfulAid3",
     "description": "Paxful Aid",
-    "version": "2.0",
+    "version": "2.1",
 
     "icons": {
         "128": "images/passle_logo_128x128.png",

@@ -205,6 +205,17 @@ function createButton_wrongRegion(index) {
 }
 
 
+function createButton_incorrectValue(index) {
+  var messageArray = ["Brother the card value is wrong, please cancel the trade, and re open the trade for: "];
+
+  var buttonID = "custom-button-" + index;
+  var color = "";
+  var buttonInnerText = "#" + index + " - Wrong card Amount";
+  createTradeMessagesButton(buttonID, color, messageArray, buttonInnerText);
+}
+
+
+
 function createButton_custom(index) {
   var messageArray = ["place-holder"];
 
