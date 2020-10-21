@@ -1,0 +1,14 @@
+https://paxful.com/rest/v1/offers?crypto_currency_id=1&currency=CAD&payment-method=amazon-gift-card&type=buy
+
+must use this with proxy
+
+all types of codes sold
+https://paxful.com/rest/v1/offers?crypto_currency_id=1&group=gift-cards&currency=CAD&payment-method=with-any-payment-method&type=sell
+
+
+all offers people are buying
+https://paxful.com/rest/v1/offers?crypto_currency_id=1&group=gift-cards&currency=CAD&payment-method=with-any-payment-method&type=buy
+
+
+check feedback of someone
+https://paxful.com/rest/v1/users/hqq13489/feedbacks?camelCase=1&feedback=all&offer_type=sell&f_page=1
