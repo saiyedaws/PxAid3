@@ -62,7 +62,10 @@ function createButtonDiv() {
 
     //old
     //var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
-    var chatBox = document.querySelector(".flex-grow-1.TradePage__body")
+    //var chatBox = document.querySelector(".flex-grow-1.TradePage__body");
+    var chatBox = document.getElementsByClassName("flex-grow-1 TradeChat__body")[0];
+
+    
 
     chatBox.nextElementSibling.append(div);
 
