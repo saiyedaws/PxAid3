@@ -60,8 +60,11 @@ function createButtonDiv() {
     var div = document.createElement("div");
     div.id = "button-div";
 
-    var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
-    chatBox.append(div);
+    //old
+    //var chatBox = document.querySelector(".flex-grow-1.TradeChat__wrapper");
+    var chatBox = document.querySelector(".flex-grow-1.TradePage__body")
+
+    chatBox.nextElementSibling.append(div);
 
     resolve();
   });
